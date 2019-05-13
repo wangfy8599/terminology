@@ -1,4 +1,7 @@
+# Run 
+sbt 
 
+# Dependency Syntax
 如果你用是 groupID %% artifactID % revision 而不是 groupID % artifactID % revision（区别在于 groupID 后面是 %%），sbt 会在 工件名称中加上项目的 Scala 版本号。 这只是一种快捷方法。你可以这样写不用 %%：
 
 libraryDependencies += "org.scala-tools" % "scala-stm_2.11.1" % "0.3"
