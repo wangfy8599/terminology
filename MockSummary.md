@@ -1,0 +1,1 @@
+其中EasyMock和Mockito对于Java接口使用接口代理的方式来模拟，对于Java类使用继承的方式来模拟（也即会创建一个新的Class类）。Mockito支持spy方式，可以对实例进行模拟。但它们都不能对静态方法和final类进行模拟，powermock通过修改字节码来支持了此功能。
